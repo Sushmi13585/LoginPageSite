@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgba(255, 192, 203, 0.158);
+}
+.whole{
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow : 0px 0px 5px 5px rgba(128, 128, 128, 0.101);
+    border-radius: 10px;
+    background-color: white;
+    height: 580px;
+    width:1070px;
+    margin-left: 230px;
+    margin-top: 80px;
+}
+.header{
+    transform: translateX(400px);
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(1, 186, 1);
+}
+form{
+    transform: translateX(120px);
+}
+.namebox{
+    padding-top: 30px;
+    font-weight: bold;
+
+}
+#name{
+    border: 2px solid rgba(123, 123, 123, 0.301);
+    border-radius:5px;
+    width:375px;
+    height: 28px;
+}
+::placeholder{
+    color:rgba(123, 123, 123, 0.492) ;
+    margin-top:-40px;
+    padding-left:7px;
+    font-size: small;
+}
+.passwordbox{
+    transform: translateX(460px);
+    margin-top:-85px;
+    font-weight: bold;
+
+}
+#password{
+    border: 2px solid rgba(123, 123, 123, 0.301);
+    border-radius:5px;
+    width:375px;
+    height: 28px;
+}
+/*.labelpassword{
+    color:rgba(123, 123, 123, 0.492) ;
+    margin-top:-40px;
+    margin-left:450px;
+    font-size: small;
+}*/
+.dobbox{
+    padding-top:18px;
+    font-weight: bold;
+
+}
+#dob{
+    border: 2px solid rgba(123, 123, 123, 0.301);
+    border-radius:5px;
+    width:375px;
+    height: 28px;
+}
+/*
+.labeldob{
+    color:rgba(123, 123, 123, 0.492) ;
+    margin-top:-40px;
+    margin-left:15px;
+    font-size: small;
+}*/
+.cpasswordbox{
+    transform: translateX(460px);
+    margin-top:-85px;
+    font-weight: bold;
+
+}
+#cpassword{
+    border: 2px solid rgba(123, 123, 123, 0.301);
+    border-radius:5px;
+    width:375px;
+    height: 28px;
+}
+/*
+.labelcpassword{
+    color:rgba(123, 123, 123, 0.492) ;
+    margin-top:-40px;
+    margin-left:450px;
+    font-size: small;
+}*/
+.mailbox{
+    padding-top:18px; 
+    font-weight: bold;
+ 
+}
+#mailid{
+    border: 2px solid rgba(123, 123, 123, 0.301);
+    border-radius:5px;
+    width:375px;
+    height: 28px;  
+}
+/*
+.labelmailid{
+    color:rgba(123, 123, 123, 0.492) ;
+    margin-top:-40px;
+    margin-left:15px;
+    font-size: small;
+}*/
+.but1{
+    border: 1px solid rgb(1, 186, 1);
+    transform: translateX(260px);
+    margin-top: 100px;
+    padding: 8px 40px 8px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(1, 186, 1);
+}
+.idin{
+    transform: translateX(405px);
+    margin-top:-40px;
+}
+.but2{
+ border: 1px solid rgb(1, 186, 1);
+ margin-left: 430px;
+ transform: translateY(-43px);
+ padding: 8px 15px 8px 15px;
+ border-radius: 5px; 
+ font-weight: bold;
+ color: white;
+ background-color: rgb(1, 186, 1); 
+}
