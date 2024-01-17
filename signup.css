@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}  
+body{
+    background-color: rgba(255, 192, 203, 0.158);
+    margin-left:250px;  
+    margin-top:60px;
+}
+.whole{
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow : 0px 0px 5px 5px rgba(128, 128, 128, 0.101);
+    border-radius: 10px;
+    background-color: white;
+    height: 580px;
+    width: 1070px;
+   
+}
+.Container{
+  
+  flex-direction: column-reverse;
+   
+}
+.line1{
+    margin-left:-5px;
+    margin-top:-35px;
+    margin-right:-6px;
+    border: 1px solid rgba(123, 123, 123, 0.492);
+    color:rgba(123, 123, 123, 0.492) ;
+}
+.header{
+    transform: translateX(490px);
+    margin-top:25px;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(18, 149, 18);
+    flex-basis: 20%;
+}
+form{
+    transform: translateX(350px);
+}
+.lefttopbut{
+    color: rgb(2, 151, 2); 
+    font-weight: bold;
+    background-color: white;
+    margin-left: 880px;
+    border: 1px solid rgba(128, 128, 128, 0.279);
+    border-radius: 5px;
+   transform: translateY(-40px);
+    box-shadow: 0px 0px 2px 2px rgba(128, 128, 128, 0.199);
+    padding: 10px 26px 10px 26px;
+}
+.lefttop{
+    margin-left: 670px;
+    transform: translateY(10px);
+    color:rgba(123, 123, 123, 0.492) ;
+}
+.mailbox{
+    padding-top:40px; 
+    font-weight: bold;
+ 
+}
+#mailid{
+    border: 2px solid rgba(123, 123, 123, 0.301);
+    border-radius:5px;
+    width:375px;
+    height: 28px;  
+}
+::placeholder{
+    color:rgba(123, 123, 123, 0.492) ;
+    margin-top:-40px;
+    padding-left:7px;
+    font-size: small;
+}
+.passwordbox{
+    transform: translateX(0px);
+    margin-top:-30px;
+    font-weight: bold;
+}
+.forgetbox{
+    transform: translateY(3px);
+    margin-left:240px;
+    font-weight: bold;
+    color: rgba(0, 0, 255, 0.748);
+}
+#password{
+    border: 2px solid rgba(123, 123, 123, 0.301);
+    border-radius:5px;
+    width:375px;
+    height: 28px;
+}
+.buttonbox{
+    margin-top:40px;
+    margin-left: 0px;
+}
+.but{
+    padding: 10px 160px 10px 160px;
+    color: white;
+    border: 1px solid green;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:5px;
+    background-color: rgb(10, 167, 10);
+}
+.line2{
+    margin-top:100px;
+    margin-left:-355px;
+    margin-right:345px;
+    border: 1px solid rgba(123, 123, 123, 0.492);
+    color:rgba(123, 123, 123, 0.492) ;
+}
+.follow{
+    margin-left:920px;
+    transform: translateY(-30px);
+    
+}
+.icons{
+    margin-left:1000px;
+    transform: translateY(5px);
+    margin-top:0px;
+}
+.copi{
+    font-size: small;
+   transform: translateY(-65px);
+}
+@media screen and (max-width:600px){
+    .Container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .whole{
+        width:800px;
+        height: 800px;
+    }
+   body{
+       padding-top:600px;
+       padding-left:380px;
+       padding-right:300px;
+    }
+    .header{
+      transform: translateX(350px);
+    }
+    .inputbox{
+        transform: translateX(-200px);
+    }
+    
+    form{
+        margin-top:30px;
+        transform: translateX(420px);
+    }
+    .line2{
+        margin-top:200px;
+        margin-left:-225px;
+        margin-right:210px;
+       
+    }
+    .mailbox{
+        padding-bottom:35px;
+     
+    }
+    
+    .buttonbox{
+        padding-top: 35px;
+    }
+    .bottombox{
+        margin-bottom:60px;
+        }
+  .follow{
+            margin-left:600px;
+            transform: translateY(10px);
+            
+        }
+ .lefttopbut{
+           
+            margin-left: 630px;
+           
+           transform: translateY(-40px);
+           
+        }
+ .lefttop{
+            margin-left: 450px;
+            transform: translateY(10px);
+        }
+    /*
+    .lefttop{
+        justify-content: center;
+        align-items: center;
+    }
+    .lefttopbuts{
+        justify-content: center;
+        align-items: center;
+    }
+      
+    /*
+    
+    .lefttop{
+        padding:none;
+        margin:auto;
+        transform: none;
+    }
+    .lefttopbuts{
+        padding:None;
+        margin:auto;
+        transform: none;
+    }*/
+  /*  .inputbox{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .iconbox{
+        width: 100%;
+    }
+    .bottombox{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .main-user-info{
+        max-height: 380px;
+        overflow: auto;
+    }
+    .main-user-info::-webkit-scrollbar{
+        width: 0;
+    }*/
+}
